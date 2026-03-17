@@ -33,7 +33,7 @@ export const ARTIFACTS = [
       verse: '"Las mejores historias empiezan con pequeños gestos. ¿Recuerdas aquel primer detalle que aceptaste de mi parte? Escribe qué fue."',
       placeholder: 'Escribe tu respuesta...',
       hint: 'Tiene mucha relación con la fecha del primer fragmento...',
-      answer: 'una oveja',
+      answers: ['una oveja', 'oveja', 'peluche', 'un peluche'],
     },
   },
   {
