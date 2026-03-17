@@ -319,7 +319,12 @@ export default function App() {
       const correct = normalize(riddle.answer ?? '');
       const given = normalize(inputValue);
 
-      if (given === correct) {
+      // Support both a single answer and an array of accepted answers
+      const isCorrect = Array.isArray(riddle.answers)
+        ? riddle.answers.some((a) => normalize(a) === given)
+        : normalize(riddle.answer ?? '') === given;
+
+      if (isCorrect) {
         setErrorMsg('');
         unlock(id);
       } else {

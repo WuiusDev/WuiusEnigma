@@ -49,7 +49,7 @@ export const ARTIFACTS = [
       verse: '"No busco ofrecerte un cuento de hadas sin defectos, sino un equipo real. A veces me sumerjo demasiado en mis proyectos o escribiendo líneas de código, pero hay algo que siempre intento hacer por ti. ¿Qué es?"',
       placeholder: 'La frase mágica...',
       hint: 'Piensa en el sonido más bonito y ruidoso que haces cuando te cuento algo gracioso o la pasamos bien.',
-      answer: 'hacerte sonreír',
+      answers: ['hacerte reir', 'hacerte sonreir', 'hacerme reir', 'hacerme sonreir', 'reir', 'sonreir'],
     },
   },
   {
@@ -78,8 +78,7 @@ export const ARTIFACTS = [
     riddle: {
       type: 'multiple-choice',
       title: 'Quinto Fragmento',
-      verse: '"Dicen que este objeto otorga sabiduría, pero yo me di cuenta de lo increíble que eres desde el primer día. Selecciona de esta lista lo que más te gusta de ti."',
-      // Todas las opciones son correctas
+      verse: '"Dicen que este objeto otorga sabiduría, pero yo me di cuenta de lo increíble que eres desde el primer día. Selecciona de esta lista lo que más me gusta de ti."',
       options: ['Sonrisa', 'Inteligencia', 'Ojos', 'Manos'],
       hint: 'Todas las respuestas son igual de correctas... porque todo en ti es mágico.',
     },
