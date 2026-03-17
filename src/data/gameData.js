@@ -46,10 +46,10 @@ export const ARTIFACTS = [
     riddle: {
       type: 'text',
       title: 'Tercer Fragmento',
-      verse: '"No busco ofrecerte un cuento de hadas sin defectos, sino un equipo real. A veces me sumerjo demasiado en mis proyectos o escribiendo líneas de código, pero hay algo que siempre intento hacer por ti. ¿Qué es?"',
+      verse: '"No busco ofrecerte un cuento de hadas perfecto, sino una historia real donde rememos en una misma dirección. A veces me sumergiré demasiado en mis proyectos o escribiendo líneas de código, pero hay algo que siempre intentaré hacer por ti. ¿Qué es?"',
       placeholder: 'La frase mágica...',
       hint: 'Piensa en el sonido más bonito y ruidoso que haces cuando te cuento algo gracioso o la pasamos bien.',
-      answers: ['hacerte reir', 'hacerte sonreir', 'hacerme reir', 'hacerme sonreir', 'reir', 'sonreir'],
+      answers: ['hacerte reir', 'hacerte sonreir', 'hacerme reir', 'hacerme sonreir', 'reir', 'sonreir', 'hacerme feliz', 'hacerte feliz', 'feliz'],
     },
   },
   {
