@@ -1,0 +1,115 @@
+// ============================================================
+//  GAME DATA — Edita aquí los acertijos y las respuestas
+//  Tipos disponibles: 'text' | 'date' | 'multiple-choice' | 'button-only' | 'final'
+// ============================================================
+
+export const ARTIFACTS = [
+  {
+    id: 'diario',
+    name: 'El Diario',
+    emoji: '📔',
+    symbol: '✍',
+    color: '#8b4513',
+    glowColor: 'rgba(139,69,19,0.6)',
+    riddle: {
+      type: 'date',
+      title: 'Primer Fragmento',
+      verse: '"En el silencio del tiempo grabado está, aquella fecha en que el destino nos unirá. Ingresa la fecha en que todo comenzó..."',
+      placeholder: 'DD/MM/AAAA',
+      hint: 'Piensa en el día en que leíste "...Me gustaría que este detalle sea el primer paso para cambiar eso y una excusa para conversar más allá de una ayuda del área de desarrollo..."',
+      answer: '15/02/2026',
+    },
+  },
+  {
+    id: 'anillo',
+    name: 'El Anillo',
+    emoji: '💍',
+    symbol: '○',
+    color: '#c0a060',
+    glowColor: 'rgba(192,160,96,0.6)',
+    riddle: {
+      type: 'text',
+      title: 'Segundo Fragmento',
+      verse: '"Las mejores historias empiezan con pequeños gestos. ¿Recuerdas aquel primer detalle que aceptaste de mi parte? Escribe qué fue."',
+      placeholder: 'Escribe tu respuesta...',
+      hint: 'Tiene mucha relación con la fecha del primer fragmento...',
+      answer: 'una oveja',
+    },
+  },
+  {
+    id: 'guardapelo',
+    name: 'El Guardapelo',
+    emoji: '🪬',
+    symbol: '◈',
+    color: '#2d7a4f',
+    glowColor: 'rgba(45,122,79,0.6)',
+    riddle: {
+      type: 'text',
+      title: 'Tercer Fragmento',
+      verse: '"No busco ofrecerte un cuento de hadas sin defectos, sino un equipo real. A veces me sumerjo demasiado en mis proyectos o escribiendo líneas de código, pero hay algo que siempre intento hacer por ti. ¿Qué es?"',
+      placeholder: 'La frase mágica...',
+      hint: 'Piensa en el sonido más bonito y ruidoso que haces cuando te cuento algo gracioso o la pasamos bien.',
+      answer: 'hacerte sonreír',
+    },
+  },
+  {
+    id: 'copa',
+    name: 'La Copa',
+    emoji: '🏆',
+    symbol: '⚱',
+    color: '#b8860b',
+    glowColor: 'rgba(184,134,11,0.6)',
+    riddle: {
+      type: 'text',
+      title: 'Cuarto Fragmento',
+      verse: '"Por las memorias que ya creamos y las que faltan. ¿Cuál fue el lugar de nuestra primera salida a comer?"',
+      placeholder: 'El nombre del lugar...',
+      hint: 'Estuvimos cantando ambos y tomaste el control de la TV luego de que la otra mesa se desocupara.',
+      answer: 'la romana',
+    },
+  },
+  {
+    id: 'diadema',
+    name: 'La Diadema',
+    emoji: '👑',
+    symbol: '♛',
+    color: '#4169e1',
+    glowColor: 'rgba(65,105,225,0.6)',
+    riddle: {
+      type: 'multiple-choice',
+      title: 'Quinto Fragmento',
+      verse: '"Dicen que este objeto otorga sabiduría, pero yo me di cuenta de lo increíble que eres desde el primer día. Selecciona de esta lista lo que más te gusta de ti."',
+      // Todas las opciones son correctas
+      options: ['Sonrisa', 'Inteligencia', 'Ojos', 'Manos'],
+      hint: 'Todas las respuestas son igual de correctas... porque todo en ti es mágico.',
+    },
+  },
+  {
+    id: 'serpiente',
+    name: 'La Serpiente',
+    emoji: '🐍',
+    symbol: '∿',
+    color: '#556b2f',
+    glowColor: 'rgba(85,107,47,0.6)',
+    riddle: {
+      type: 'button-only',
+      title: 'Sexto Fragmento',
+      verse: '"Para este fragmento no tienes que escribir nada en la pantalla. Cierra los ojos, extiende las manos y pide a tu compañero de aventuras."',
+      buttonLabel: 'Ya lo tengo ✦',
+    },
+  },
+  {
+    id: 'rayo',
+    name: 'El Rayo',
+    emoji: '⚡',
+    symbol: '⚡',
+    color: '#ffd700',
+    glowColor: 'rgba(255,215,0,0.7)',
+    riddle: {
+      type: 'final',
+      title: 'Séptimo Fragmento',
+      verse: '"Solo falta una pieza para completar esto. Abre el compañero que te acabo de entregar, lee lo que hay dentro y presiona el botón cuando tengas la respuesta."',
+      finalMessage: 'De ahora en adelante, somos pareja, equipo, novios, enamorados y amigos. Cuenta conmigo para todo, desde lo más mínimo hasta lo más complicado. Gracias por dejarme entrar en tu vida aquel 15 de febrero. Esto recién empieza. 💛',
+    },
+  },
+];
