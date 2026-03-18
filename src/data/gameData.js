@@ -93,7 +93,7 @@ export const ARTIFACTS = [
     riddle: {
       type: 'button-only',
       title: 'Sexto Fragmento',
-      verse: '"Para este fragmento no tienes que escribir nada en la pantalla. Cierra los ojos, extiende las manos y pide a tu compañero de aventuras."',
+      verse: '"Para este fragmento no tienes que escribir nada en la pantalla. Cierra los ojos, extiende las manos y recibe a tu nuevo compañero de aventuras... que viene con un detalle especial."',
       buttonLabel: 'Ya lo tengo ✦',
     },
   },
@@ -107,7 +107,7 @@ export const ARTIFACTS = [
     riddle: {
       type: 'final',
       title: 'Séptimo Fragmento',
-      verse: '"Solo falta una pieza para completar esto. Abre el compañero que te acabo de entregar, lee lo que hay dentro y presiona el botón cuando tengas la respuesta."',
+      verse: '"Solo falta una pieza para completar este grimorio. Mírame a los ojos y dime si estás lista. Te entregaré un cofre que solo cederá ante el hechizo correcto... Adentro guarda un mensaje escrito solo para ti. Léelo con mucha atención y presiona el botón cuando tengas tu respuesta."',
       finalMessage: 'De ahora en adelante, somos pareja, equipo, novios, enamorados y amigos. Cuenta conmigo para todo, desde lo más mínimo hasta lo más complicado. Gracias por dejarme entrar en tu vida aquel 15 de febrero. Esto recién empieza. 💛',
     },
   },
